@@ -15,6 +15,7 @@ int main(){
     LinearFilter lf; 
 
     Mat img_man = imread("../image/man.jpg", IMREAD_COLOR); //IMREAD_COLOR or IMREAD_GRAYSCALE;
+    Mat img_pieta = imread("../image/pieta.jpeg", IMREAD_COLOR); //IMREAD_COLOR or IMREAD_GRAYSCALE;
     Mat img_dog = imread("../image/dog.jpg", IMREAD_COLOR); //IMREAD_COLOR or IMREAD_GRAYSCALE;
     Mat img_cat = imread("../image/cat.jpg", IMREAD_COLOR); //IMREAD_COLOR or IMREAD_GRAYSCALE;
 
